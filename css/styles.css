@@ -305,17 +305,26 @@ h2, h3, h4, h5 {
 }
 
 /**FORMATTING FOR CHARACTERS**/
-.character-container {
-  display: flex;
-  flex-wrap: wrap;
+
+article img {
+	width:90vw;
+	max-width: 300px;
+	padding-top: 30px
 }
 
-.c1, .c2, .c3, .c4, .c5  {
-  display: flex;
-  justify-content: space-between;
+.c1, .c2, .c3, .c4, .c5, .c6, .c7 {
+  width: 100%;
+	text-align: center;
 }
 
-.character-text
+article h3 {
+	padding: 20px 0;
+}
+
+article p {
+	padding: 0 40px 40px;
+	line-height: 30px;
+}
 
 /**FOOTER FORMATTING**/
 footer {
@@ -470,6 +479,21 @@ footer img {
 	.panel ul {
 	 columns: 2;
 	 }
+
+	 /* CHARACTER PAGE FORMATTING */
+	 .c1, .c2, .c3, .c4, .c5 {
+		 display: flex;
+		 text-align: left;
+	 }
+
+  	.character-image {
+		align-self: flex-end;
+	}
+
+	 article h3 {
+		 padding-left: 40px;
+	 }
+
 }
 
 
